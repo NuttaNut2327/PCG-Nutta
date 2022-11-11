@@ -28,3 +28,17 @@ npm run dev
 npm run build
 ```
 # PCG-Nutta
+
+#deploy
+
+>แก้ไข vite.comfig.js ให้มี base ตามด้วย "//"
+
+'''bash
+npm run buid
+'''
+
+>'git add dist -f'
+
+>'git commit -m "deploy"'
+
+>'git subtree push --prefix dist origin gh-pages'
