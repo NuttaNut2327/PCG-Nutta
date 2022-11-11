@@ -33,12 +33,12 @@ npm run build
 
 >แก้ไข vite.comfig.js ให้มี base ตามด้วย "//"
 
-'''bash
+```bash
 npm run buid
-'''
+```
 
->'git add dist -f'
+>`git add dist -f`
 
->'git commit -m "deploy"'
+>`git commit -m "deploy"`
 
->'git subtree push --prefix dist origin gh-pages'
+>`git subtree push --prefix dist origin gh-pages`
